@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Brevo_Email</label>
+    <protected>false</protected>
+    <values>
+        <field>API_KEY__c</field>
+        <value xsi:type="xsd:string">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</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://api.brevo.com/v3/smtp/email</value>
+    </values>
+</CustomMetadata>
