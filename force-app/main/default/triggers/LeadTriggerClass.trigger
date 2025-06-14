@@ -1,7 +1,5 @@
 trigger LeadTriggerClass on Lead (after insert, after update) {
 
-
-
     if(Trigger.isAfter && Trigger.isInsert){
         Cls_APIsOrchestrator orchestrator = new Cls_APIsOrchestrator(Trigger.new, 'Lead', true);
         orchestrator.executeOrchestrator();
@@ -11,6 +9,5 @@ trigger LeadTriggerClass on Lead (after insert, after update) {
         Cls_APIsOrchestrator orchestrator = new Cls_APIsOrchestrator(Trigger.new, 'Lead', false);
         orchestrator.executeOrchestrator();
     }
-    
-    
+       
 }

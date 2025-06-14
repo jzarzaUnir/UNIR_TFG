@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Welcome Email</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">Brevo_Email</value>
+    </values>
+    <values>
+        <field>Entry_Criteria__c</field>
+        <value xsi:type="xsd:string">String;LeadSource;notEquals;Null|String;LeadSource;equals;UNIR</value>
+    </values>
+    <values>
+        <field>JSON__c</field>
+        <value xsi:type="xsd:string">{
+   &quot;email&quot;:&quot;Email&quot;,
+   &quot;name&quot;:&quot;Name&quot;
+}</value>
+    </values>
+    <values>
+        <field>Object__c</field>
+        <value xsi:type="xsd:string">Lead</value>
+    </values>
+    <values>
+        <field>Subject__c</field>
+        <value xsi:type="xsd:string">Bienvenido a la UNIR</value>
+    </values>
+    <values>
+        <field>TemplateId__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Trigger_Actions__c</field>
+        <value xsi:type="xsd:string">Created</value>
+    </values>
+</CustomMetadata>
